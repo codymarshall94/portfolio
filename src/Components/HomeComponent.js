@@ -3,7 +3,7 @@ import "../css/homecomponent.css";
 
 function HomeComponent() {
   return (
-    <div className="d-flex justify-content-center home-container">
+    <div className="d-flex justify-content-center home-container" id="home">
       <div className="border-gradient home-page-frame">
         <div className="header-one">
           <h1>Code-y Marshall</h1>
