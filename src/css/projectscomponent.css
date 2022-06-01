@@ -7,9 +7,37 @@
     width: 100vw;
 }
 
+.border-gradient {
+    border: 5px solid black;
+    border-top: 15px solid;
+    border-color: #91a2faff;
+}
+
+.project-item {
+    height: 200px;
+    width: 250px;
+    margin: 3rem;
+    transition: .25s ease-in;
+    transform-origin: bottom left;
+}
+
+.project-item:hover {
+    border-image: linear-gradient(90deg, rgba(63, 188, 157, .8), #7cb3f3ff, #91a2faff, #e2a5efff, #ece2bfff) 1;
+    transform: rotate(-5deg);
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-text-color {
+    color: #3FBC9D;
+}
+
 .section-header {
     margin-top: 10%;
     letter-spacing: .5rem;
+    text-align: center;
     color: #3FBC9D;
     font-family: 'Roboto Mono', monospace;
 }
