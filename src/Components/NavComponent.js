@@ -33,15 +33,33 @@ function NavComponent() {
         </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link nav-link-gradient" href="#">
+      <Link
+          className="nav-link nav-link-gradient active"
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           About Me
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link nav-link-gradient">Contact</a>
+      <Link
+          className="nav-link nav-link-gradient active"
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Contact
+        </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link social-icon">
+        <a className="nav-link social-icon" href="https://github.com/codymarshall94">
           <AiFillGithub color="#3FBC9D" />
         </a>
       </li>
