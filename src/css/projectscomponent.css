@@ -13,10 +13,17 @@
     border-color: #91a2faff;
 }
 
+.project-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
 .project-item {
     height: 200px;
     width: 250px;
-    margin: 3rem;
     transition: .25s ease-in;
     transform-origin: bottom left;
 }
@@ -28,6 +35,7 @@
 
 .project-text {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .project-text-color {

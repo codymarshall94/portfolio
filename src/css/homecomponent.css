@@ -65,3 +65,32 @@ span {
 #E2A5EF
 #ECE2BF
 */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .home-page-frame {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 800px;
+    }
+
+    h1 {
+        font-size: 56px;
+        overflow: wrap;
+        text-align: center;
+        font-family: 'Bungee Shade', cursive;
+        background-image: linear-gradient(90deg, rgba(63, 188, 157, .8), #7cb3f3ff, #91a2faff, #e2a5efff, #ece2bfff);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .header-two {
+        margin-top: -18px;
+        margin-left: 0;
+    }
+}

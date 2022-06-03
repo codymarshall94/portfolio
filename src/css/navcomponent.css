@@ -3,9 +3,6 @@
 
 
 .nav-logo {
-    position: absolute;
-    top: 0;
-    left: 1rem;
     font-family: 'Bungee Shade', cursive;
     font-size: 44px;
     cursor: pointer;
@@ -16,14 +13,14 @@
     transition: .5s ease-in;
 }
 
+
 .nav-logo:hover {
     color: white;
 }
 
 .nav-menu {
-    position: fixed;
-    top: 0;
     width: 100%;
+    background-color: #221E1F;
 }
 
 .social-icon {
@@ -38,6 +35,7 @@
     background-clip: text;
     color: transparent;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav-link-gradient:hover {
