@@ -84,7 +84,7 @@ function NavComponent() {
                 </a>
               </li>
               <li className="nav-item d-flex align-items-center">
-                <a className="nav-link social-icon">
+                <a className="nav-link social-icon" href="https://www.linkedin.com/in/cody-marshall-8aa8b315a/">
                   <AiFillLinkedin color="#ECE2BF" />
                 </a>
               </li>
