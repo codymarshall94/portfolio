@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function NavComponent() {
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg fixed-top nav-menu">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <Link
             className="nav-logo navbar-brand"
@@ -23,7 +23,7 @@ function NavComponent() {
           {/* Start of Navbar Toggler*/}
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-dark"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarMenu"
@@ -36,7 +36,7 @@ function NavComponent() {
 
           <div class="collapse navbar-collapse" id="navbarMenu">
             <ul className="navbar-nav">
-            <li className="nav-item d-flex align-items-center">
+              <li className="nav-item d-flex align-items-center">
                 <Link
                   className="active nav-link-gradient"
                   activeClass="active"
@@ -75,19 +75,24 @@ function NavComponent() {
                   Contact
                 </Link>
               </li>
-              <li className="nav-item d-flex align-items-center">
-                <a
-                  className="nav-link social-icon"
-                  href="https://github.com/codymarshall94"
-                >
-                  <AiFillGithub color="#3FBC9D" />
-                </a>
-              </li>
-              <li className="nav-item d-flex align-items-center">
-                <a className="nav-link social-icon" href="https://www.linkedin.com/in/cody-marshall-8aa8b315a/">
-                  <AiFillLinkedin color="#ECE2BF" />
-                </a>
-              </li>
+              <div className="d-flex">
+                <li className="nav-item d-flex align-items-center">
+                  <a
+                    className="nav-link social-icon"
+                    href="https://github.com/codymarshall94"
+                  >
+                    <AiFillGithub color="#3FBC9D" />
+                  </a>
+                </li>
+                <li className="nav-item d-flex align-items-center">
+                  <a
+                    className="nav-link social-icon"
+                    href="https://www.linkedin.com/in/cody-marshall-8aa8b315a/"
+                  >
+                    <AiFillLinkedin color="#ECE2BF" />
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
