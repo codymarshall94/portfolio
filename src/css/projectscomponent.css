@@ -37,9 +37,7 @@
 .project-text {
     text-align: center;
     margin-top: 1rem;
-}
-
-.project-text-color {
+    letter-spacing: .5rem;
     color: #3FBC9D;
 }
 
@@ -49,4 +47,15 @@
     text-align: center;
     color: #3FBC9D;
     font-family: 'Roboto Mono', monospace;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .project-text {
+        letter-spacing: .25rem;
+    }
+
+    .project-item-container {
+        margin: 1rem 0;
+    }
 }
