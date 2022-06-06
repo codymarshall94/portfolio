@@ -34,7 +34,7 @@ function NavComponent() {
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse bg-dark d-flex justify-content-end align-items-center" id="navbarMenu">
+          <div class="collapse navbar-collapse" id="navbarMenu">
             <ul className="navbar-nav">
             <li className="nav-item d-flex align-items-center">
                 <Link
