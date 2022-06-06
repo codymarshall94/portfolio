@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-.projects {
+/* .projects {
+    position: relative;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
-}
+} */
 
 .border-gradient {
     border: 5px solid black;

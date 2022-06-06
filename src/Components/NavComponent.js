@@ -23,6 +23,7 @@ function NavComponent() {
           {/* Start of Navbar Toggler*/}
 
           <button
+            id="toggle-btn"
             className="navbar-toggler bg-dark"
             type="button"
             data-bs-toggle="collapse"
@@ -35,7 +36,7 @@ function NavComponent() {
           </button>
 
           <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item d-flex align-items-center">
                 <Link
                   className="active nav-link-gradient"

@@ -12,7 +12,7 @@ function HomeComponent() {
           <h2>Creates Stuff</h2>
         </div>
         <div className="header-three">
-            <span className="home-page-message">Apsiring Front End Developer</span>
+            <span className="home-page-message">Aspiring Front End Developer</span>
         </div>
       </div>
     </div>
