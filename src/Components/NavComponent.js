@@ -43,8 +43,10 @@ function NavComponent() {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarMenu"
                 >
                   Projects
                 </Link>
@@ -56,8 +58,10 @@ function NavComponent() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarMenu"
                 >
                   About Me
                 </Link>
@@ -71,6 +75,8 @@ function NavComponent() {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarMenu"
                 >
                   Contact
                 </Link>
