@@ -1,9 +1,18 @@
-
-
 .section-header {
     margin-top: 10%;
     letter-spacing: .5rem;
     text-align: center;
     color: #3FBC9D;
     font-family: 'Roboto Mono', monospace;
+}
+
+.about-text {
+    text-align: center;
+    margin-top: 1rem;
+    color: #3FBC9D;
+}
+
+.hey-text {
+    font-size: 36px;
+    color: white;
 }

@@ -78,7 +78,7 @@ h2 {
 @media only screen and (max-width: 600px) {
     .home-page-frame {
         position: relative;
-        margin: auto 10px;
+        margin: 30px 10px;
         display: flex;
         justify-content: center;
         flex-direction: column;
