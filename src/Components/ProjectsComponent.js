@@ -12,11 +12,13 @@ function ProjectsComponent() {
           <div className="row mt-2">
             <div className="col-sm-12 col-md-6 col-lg-4 project-item-container">
               <div className="border-gradient project-item">
-                <img
+                <a href="https://doubleupgame.netlify.app/" target="_blank" rel="noreferrer">
+                  <img
                   className="project-img"
                   src={doubleup}
                   alt="double up game screenshot"
-                />
+                  />
+                </a>
               </div>
               <div className="project-text">
                 <span className="project-text-color">Double Up Game</span>
