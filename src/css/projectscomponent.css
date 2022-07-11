@@ -23,15 +23,23 @@
 }
 
 .project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width: 250px;
     transition: .25s ease-in;
     transform-origin: bottom left;
+    overflow: hidden;
 }
 
 .project-item:hover {
     border-image: linear-gradient(90deg, rgba(63, 188, 157, .8), #7cb3f3ff, #91a2faff, #e2a5efff, #ece2bfff) 1;
     transform: rotate(-5deg);
+}
+
+.project-img {
+
 }
 
 .project-text {
