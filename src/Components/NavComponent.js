@@ -7,7 +7,7 @@ function NavComponent() {
   return (
     <div className="container">
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <Link
             className="nav-logo navbar-brand"
             activeClass="active"
@@ -32,10 +32,10 @@ function NavComponent() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarMenu">
+          <div className="collapse navbar-collapse" id="navbarMenu">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item d-flex align-items-center">
                 <Link
